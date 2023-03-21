@@ -1,0 +1,73 @@
+{
+    "id": "3W949596DN261164X",
+    "intent": "CAPTURE",
+    "status": "COMPLETED",
+    "purchase_units": [
+        {
+            "reference_id": "default",
+            "amount": {
+                "currency_code": "USD",
+                "value": "4904.00"
+            },
+            "payee": {
+                "email_address": "sb-widck15390349@business.example.com",
+                "merchant_id": "AGC3K8WYF9936"
+            },
+            "soft_descriptor": "PAYPAL *TEST STORE",
+            "shipping": {
+                "name": {
+                    "full_name": "John Doe"
+                },
+                "address": {
+                    "address_line_1": "Free Trade Zone",
+                    "admin_area_2": "Lima",
+                    "admin_area_1": "Lima",
+                    "postal_code": "07001",
+                    "country_code": "PE"
+                }
+            },
+            "payments": {
+                "captures": [
+                    {
+                        "id": "1MY155577J581432E",
+                        "status": "COMPLETED",
+                        "amount": {
+                            "currency_code": "USD",
+                            "value": "4904.00"
+                        },
+                        "final_capture": true,
+                        "seller_protection": {
+                            "status": "ELIGIBLE",
+                            "dispute_categories": [
+                                "ITEM_NOT_RECEIVED",
+                                "UNAUTHORIZED_TRANSACTION"
+                            ]
+                        },
+                        "create_time": "2023-03-05T08:16:23Z",
+                        "update_time": "2023-03-05T08:16:23Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "payer": {
+        "name": {
+            "given_name": "John",
+            "surname": "Doe"
+        },
+        "email_address": "sb-sgmr316476136@personal.example.com",
+        "payer_id": "FNB4Y2L7LB6ZJ",
+        "address": {
+            "country_code": "PE"
+        }
+    },
+    "create_time": "2023-03-05T08:16:17Z",
+    "update_time": "2023-03-05T08:16:23Z",
+    "links": [
+        {
+            "href": "https://api.sandbox.paypal.com/v2/checkout/orders/3W949596DN261164X",
+            "rel": "self",
+            "method": "GET"
+        }
+    ]
+}

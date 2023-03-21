@@ -1,0 +1,10 @@
+http://localhost/miwebsite/controllers/capmp.controllers.php?
+collection_id=1313121043&collection_status=approved&
+
+payment_id=1313121043
+&status=approved&
+external_reference=null
+&payment_type=credit_card&
+merchant_order_id=8099972310
+&preference_id=1100679250-ef845fa2-2b3e-443c-b33c-572ffe3e625d&site_id=MPE&processing_mode=aggregator&
+merchant_account_id=null
