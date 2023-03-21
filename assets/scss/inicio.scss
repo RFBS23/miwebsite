@@ -1,0 +1,31 @@
+$negro: #111111;
+$blanco: #FEFEFE;
+$grisOscuro: #222222;
+$grisClaro: #C8C8C8;
+$grisClaroHover: #ACABAB;
+$azul: #3E60E9;
+$azulHover: #254BE6;
+$rojo: #e74545;
+$naranjaneon: #ffa43a;
+$verdeneon: #20c67a;
+$transparentwhite: #ffffffcc;
+$azulneon: #f0376e;
+$transparente: #2c2828f2;
+$sombraDark: 10px 10px 20px rgba(170,170,170,.16);
+$sombraLight: 10px 10px 20px rgba(0,0,0,.16);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+.modal-body::-webkit-scrollbar {
+    display: none;
+}
+main > .container{
+    padding: 30px 0;
+}
